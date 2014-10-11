@@ -1,0 +1,12 @@
+.form_container
+{
+    text-align: center;
+    width: auto;
+}
+
+.slide_show_container
+{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}

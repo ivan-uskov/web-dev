@@ -1,0 +1,58 @@
+.slides_container
+{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #bebebe;
+    margin: 0 auto;
+}
+
+.slides_container img
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.slides_container .leftNavButton,
+.slides_container .rightNavButton
+{
+    width: 50px;
+    height: inherit;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    opacity: 0.2;
+    background: rgba(101, 132, 190, 0.62);
+}
+
+.slides_container .leftNavButton
+{
+    background: white; /* Для старых браузров */
+    /*background: linear-gradient(to left, rgba(141, 191, 241, 0.5), rgba(254, 252, 234, 0));*/
+}
+
+.slides_container .rightNavButton
+{
+    right: 0;
+    background: white; /* Для старых браузров */
+    /*background: linear-gradient(to right, rgba(254, 252, 234, 0.13), rgba(141, 191, 241, 0.5));*/
+}
+
+.slides_container:hover div
+{
+    display: block;
+}
+
+.slides_container .leftNavButton:hover,
+.slides_container .rightNavButton:hover
+{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.slides_container .leftNavButton:active,
+.slides_container .rightNavButton:active
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
