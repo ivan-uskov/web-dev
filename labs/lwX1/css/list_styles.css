@@ -1,0 +1,36 @@
+.button_box
+{
+    background-image: url("../img/filter_button.png") !important;
+    margin: 8px 8px 8px 68px;
+}
+
+.form_container
+{
+    width: 815px !important;
+}
+
+.form_line
+{
+    width: 332px;
+}
+
+.user_data table
+{
+    font-size: 14px;
+}
+
+.user_data table th
+{
+    text-align: center;
+}
+
+.user_data table td
+{
+    text-align: right;
+}
+
+.change_score_plus:hover,
+.change_score_minus:hover
+{
+    cursor: pointer;
+}

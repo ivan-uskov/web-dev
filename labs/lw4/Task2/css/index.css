@@ -1,0 +1,56 @@
+/* Here custom styles begin */
+
+.main
+{   
+    width: 500px;
+    height: 500px;
+    background: rgb(0, 153, 204);
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative; 
+}
+
+.red_square
+{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    background: red;
+}
+
+.left_top
+{
+    left: 0px;
+    top: 0px;
+}
+
+.left_bottom
+{
+    left: 0px;
+    bottom: 0px;
+}
+
+.right_top
+{
+    right: 0px;
+    top: 0px;
+}
+
+.right_bottom
+{
+    bottom: 0px;
+    right: 0px;
+}
+
+.green_square
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 204, 0);
+}
+/* Here custom styles end */

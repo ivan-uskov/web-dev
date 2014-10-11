@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+body, div, a, p, ul, ol, li, table, td, th, span
+{
+    font-family: Arial;
+    font-weight: normal;
+    color: #2f3539;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Arial;
+}
+
+.clear
+{
+    clear: both;
+    height: 0 !important;
+    width: auto !important;
+    border: none !important;
+}
+
+.top_menu
+{
+    position: relative;
+    padding-top: 15px;
+    height: 40px;
+    border-bottom: 1px solid #bebebe;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 12px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.top_menu a:hover
+{
+    color: #999999;
+}
+
+.nav_panel
+{
+    width: 600px;
+    text-align: left;
+}
+
+.user_box
+{
+    position: absolute;
+    right: 12px;
+    top: 15px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px solid gray;
+    padding: 2px;
+    margin: 0;
+}
+
+th
+{
+    font-weight: normal;
+    background: #e3e3e3;
+}
+
+.main
+{
+    width: 900px;
+    margin: 0 auto;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+    background: #f1f3f8; /* Для старых браузров */
+    background: linear-gradient(to top, #B5C6EB, #FAFAFA);
+    min-height: 100%;
+}

@@ -1,0 +1,140 @@
+﻿.form_container
+{
+    margin: 0 auto;
+    padding-left: 3px;
+    padding-right: 12px;
+    width: 374px;
+    color: #0e385f;
+}
+
+.form_container h4
+{
+    margin: 8px 0px 7px 9px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.form_container p
+{
+    color: #0e385f;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    font-family: Tahoma;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.form_container hr
+{
+    width: inherit;
+    height: 1px;
+    background: #9aafca;
+    margin-bottom: 13px;
+}
+
+.form_container label
+{
+    float: right;
+    display: inline-block;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #1d2a5b;
+    height: 24px;
+    padding-top: 9px;
+    margin-right: 5px;
+}
+
+.form_line
+{
+    height: 33px;
+    text-align: right;
+    margin-bottom: 4px;
+
+}
+
+.text_input_box
+{
+    width: 254px;
+    height: 23px;
+    border: 1px solid #96a6c5;
+    padding: 4px;
+    background: white;
+    float: right;
+}
+
+input,
+select
+{
+    width: inherit;
+    height: inherit;
+    background: none;
+}
+
+.select_box
+{
+    height: 30px;
+}
+
+.select_box label
+{
+    padding-top: 7px;
+}
+
+.select_sex_box
+{
+    width: 91px;
+    margin-right: 163px;
+    height: 20px;
+}
+
+.select_day_box
+{
+    height: 20px;
+    width: 52px;
+    margin-right: 3px;
+}
+
+.select_month_box
+{
+    height: 20px;
+    width: 66px;
+    margin-right: 3px;
+}
+
+.select_year_box
+{
+    height: 20px;
+    width: 57px;
+    margin-right: 53px;
+}
+
+.button_box
+{
+    margin-left: 110px;
+    margin-bottom: 5px;
+}
+
+.button_box p
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    margin: 0 0 0 1px;
+    line-height: 9px;
+}
+
+.button_box .submit_button
+{
+    margin-top: 10px;
+    width: 111px;
+    height: 30px;
+    background-image: url("../img/sign_up_button.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.submit_button:hover,
+.submit_button input:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}

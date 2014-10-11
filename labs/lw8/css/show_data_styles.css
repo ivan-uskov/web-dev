@@ -1,0 +1,30 @@
+.form_container
+{
+    height: auto;
+}
+
+.button_box
+{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 111px;
+    height: 31px;
+    background-image: url("../img/show_button.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.button_box:hover,
+.button_box input:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.user_data
+{
+    padding: 8px;
+    font-size: 17px;
+    line-height: 18px;
+    color: #1E3055;
+}

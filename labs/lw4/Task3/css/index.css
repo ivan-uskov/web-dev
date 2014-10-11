@@ -1,0 +1,93 @@
+/* Here custom styles begin */
+
+.main
+{   
+    width: 500px;
+    text-align: center;
+    width: 617px;
+    min-height: 100%;
+    margin: 0 auto;
+    border-top: none;
+    border-bottom: none;
+}
+
+.main h1
+{
+    margin-top: 8px;
+    border-bottom: 1px solid #0065d6;
+    margin-bottom: 27px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.catBox
+{
+    margin-left: 27px;
+    width: 171px;
+    height: 174px;
+    float: left;
+    position: relative;
+}
+
+.left
+{
+    background-image: url("../img/left.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.center
+{
+    background-image: url("../img/center.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.right
+{
+    background-image: url("../img/right.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.best
+{
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/best.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.feedButton
+{
+    width: 227px;
+    height: 31px;
+    margin: 0 auto;
+    padding-top: 9px;
+    padding-right: 3px;
+    margin-top: 15px;
+    background-image: url("../img/button.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.feedButton:hover
+{
+    background-image: url("../img/button-hover-cut.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.feedButton span
+{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+/* Here custom styles end */

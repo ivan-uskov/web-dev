@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body, div, a, p, ul, ol, li, table, td, th, span
+{
+    font-family: Arial;
+    font-weight: normal;
+    color: #2f3539;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Arial;
+}
+
+.clear
+{
+    clear: both;
+    height: 0 !important;
+    width: auto !important;
+    border: none !important;
+}
+
+.main_container
+{
+    min-height: 100%;
+    width: 100%;
+    background-image: url("../img/main_background.png");
+    background-position: 0% 0%;
+}
+
+.page_container
+{
+    border-top: 8px solid #f2ac04;
+    width: 933px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 0 35px 0;
+    position: relative;
+}
+
+.top_margin
+{
+    height: 55px;
+}
+
+.bot_margin
+{
+    height: 54px;
+}
+
+.bottom_border
+{
+    width: 1003px;
+    height: 2px;
+    background-image: url("../img/borders/bottom_border.png");
+    background-position: 0% 0%;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom:-2px;
+    left: 0;
+}
+
+.left_border
+{
+    width: 2px;
+    height: 100%;
+    background-image: url("../img/borders/left_border.png");
+    background-position: 0% 0%;
+    background-repeat: repeat-y;
+    position: absolute;
+    top: 0px;
+    left: -2px;
+}
+
+.right_border
+{
+    width: 2px;
+    height: 100%;
+    background-image: url("../img/borders/right_border.png");
+    background-position: 0% 0%;
+    background-repeat: repeat-y;
+    position: absolute;
+    top: 0px;
+    right: -2px;
+}

@@ -1,0 +1,21 @@
+.form_container
+{
+    height: 180px;
+}
+
+.button_box
+{
+    margin-top: 10px;
+    width: 111px;
+    height: 31px;
+    background-image: url("../img/show_button.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.button_box:hover,
+.button_box input:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}

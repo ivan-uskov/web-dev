@@ -1,0 +1,48 @@
+*************** Лабораторная работа 1 *************************************
+
+=====================================================================
+Задания.
+---------------------------------------------------------------------
+1. Напишите CGI приложение PrintHello, которое выводит сообщение "Hello World!"
+#5 в формате text/plain.
+
+2. Определите заголовки запроса браузера и ответа сервера при запросе 
+#5 приложения PrintHello.
+
+3. Разработайте CGI приложение PrintHelloHTML. Сделайте, чтобы сообщение 
+#5 "Hello HTML World!" выводилось в формате text/html. 
+   Сообщение должно располагаться внутри HTML тэга H1.
+
+   Определите отличие заголовков ответа сервера для программы 
+   PrintHelloHTML от PrintHello.
+
+4. Напишите CGI приложение PrintQueryString, которое выводит данные переданные 
+#5 в запросе. 
+
+   Пример:
+
+   Запрос
+   HTTP 1.1 GET /cgi-bin/print_query_string.cgi?my_name=Sarah&my_surname=Rever&message=British+are+coming+by+sea.
+
+   Ответ
+   Content-Type: text/plain
+
+   Query string = 'my_name=Sarah&my_surname=Rever&message=British+are+coming+by+sea.'
+
+5. Напишите CGI приложение PrintName, которое выводит сообщение "Hello, Dear <Name>!".
+#10 <Name> заменяется на значение параметра name, переданного в GET запросе.
+
+   Пример:
+
+   Запрос
+   HTTP 1.1 GET /cgi-bin/print_name.cgi?name=Sarah
+
+   Ответ
+   Content-Type: text/plain
+
+   Hello, Dear Sarah!
+
+
+++#10 
+дополнительно, если будет реализована функция для получения любого значения параметра GET
+по его имени.

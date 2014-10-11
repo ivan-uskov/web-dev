@@ -1,0 +1,32 @@
+html,
+body
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Courier New;
+    font-size: 12px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px dashed gray;
+    padding: 2px;
+    margin: 0;
+}
+
+th
+{
+    font-weight: normal;
+    background: #e3e3e3;
+}
+
+.even
+{
+    background: #fefbe8;
+}

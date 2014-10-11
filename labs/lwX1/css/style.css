@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+body, div, a, p, ul, ol, li, table, td, th, span
+{
+    font-family: Arial;
+    font-weight: normal;
+    color: #2f3539;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Arial;
+}
+
+.clear
+{
+    clear: both;
+    height: 0 !important;
+    width: auto !important;
+    border: none !important;
+}
+
+.top_menu
+{
+    position: relative;
+    padding-top: 15px;
+    height: 40px;
+    border-bottom: 1px solid #bebebe;
+    margin: 0 auto;
+    padding-right: 12px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.logo
+{
+    position: absolute;
+    left: 12px;
+    top: 14px;
+}
+
+.logo a
+{
+    text-decoration: none;
+    font-family: Courier New;
+    font-size: 20px;
+}
+
+.nav_panel
+{
+    position: absolute;
+    right: 8px;
+    padding-top: 1px;
+    padding-left: 4px;
+    width: 692px;
+    text-align: left;
+    background: #E0E0E0;
+    border: 1px solid rgb(125, 125, 219);
+    border-radius: 3px;
+}
+
+.menu
+{
+    width: 290px;
+}
+
+.menu li
+{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    height: 21px;
+}
+
+.menu a
+{
+    color: #0e385f;
+    font-family: Arial;
+    text-decoration: none;
+    height: 20px;
+}
+
+.menu li a:hover
+{
+    color: white;
+}
+
+.menu li li a:hover
+{
+    color: #0e385f;
+}
+
+.menu li ul
+{
+    visibility: hidden;
+    position: absolute;
+    background: #E0E0E0;
+    top: 100%;
+    left: 0;
+    border-bottom: 1px solid rgb(125, 125, 219);
+    border-left: 1px solid rgb(125, 125, 219);
+    border-right: 1px solid rgb(125, 125, 219);
+}
+
+.menu li:hover ul
+{
+    visibility: visible;
+}
+
+.menu li li
+{
+    display: block;
+    white-space: nowrap;
+    border-top: 1px solid rgb(125, 125, 219);
+    padding-left: 3px;
+    padding-right: 4px;
+}
+
+.menu li li:hover
+{
+    background: white;
+}
+
+.user_box
+{
+    position: absolute;
+    right: 4px;
+    top: 1px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px solid gray;
+    padding: 2px;
+    margin: 0;
+}
+
+th
+{
+    font-weight: normal;
+    background: #e3e3e3;
+}
+
+.main
+{
+    width: 900px;
+    margin: 0 auto;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+    background: #f1f3f8; /* Для старых браузров */
+    background: linear-gradient(to top, #B5C6EB, #FAFAFA);
+    min-height: 100%;
+}
+
+input,
+textarea,
+select
+{
+    background-color: white;
+    background-image: none;
+    color: rgb(0, 0, 0);
+}

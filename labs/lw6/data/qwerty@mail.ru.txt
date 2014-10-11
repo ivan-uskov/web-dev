@@ -1,0 +1,6 @@
+age = 5/sep/1997
+first_name = ivan
+last_name = uskov
+email = qwerty@mail.ru
+password = qwerty
+i_am = male

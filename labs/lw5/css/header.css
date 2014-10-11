@@ -1,0 +1,79 @@
+/* Header Styles */
+
+.header
+{
+    padding: 42px 0 24px;
+}
+
+.logo_img
+{
+    display: inline-block;
+    height: 56px;
+    width: 210px;
+    float: left;
+}
+
+.logo_text
+{
+    margin-left: 35px;
+    border-left: 1px solid #cac8c5;
+    padding-left: 28px;
+    padding-bottom: 1px;
+    float: left;
+}
+
+.logo_text h1
+{
+    font-family: Arial;
+    font-size: 20px;
+    color: #f5bd36;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.logo_text span
+{
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #afafaf;
+}
+
+.menu_block
+{
+    margin-top: 34px;
+    height: 42px;
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    margin-left: 5px;
+}
+
+.menu_block a
+{
+    font-family: arial;
+    font-size: 18px;
+    color: #6b6b6b;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.menu_block .products
+{
+    margin-left: 76px;
+}
+
+.menu_block .news
+{
+    margin-left: 74px;
+}
+
+.menu_block .about_us
+{
+    margin-left: 82px;
+}
+
+.menu_block .contact_us
+{
+    margin-left: 75px;
+}

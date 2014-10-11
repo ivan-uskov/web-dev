@@ -1,0 +1,7 @@
+age = 5/sep/1985
+first_name = ivan
+last_name = uskov
+email = ggg@hhh
+re_email = ggg@hhh
+password = qwder
+i_am = male

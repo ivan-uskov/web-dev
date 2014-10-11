@@ -1,0 +1,34 @@
+.footer_container
+{
+    text-align: center;
+    height: 124px;
+    margin-left: 2px;
+}
+
+.footer_container .logo_link
+{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 119px;
+    height: 33px;
+    background-image: url("../img/logo/small_logo.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.footer_container p span,
+.footer_container p a
+{
+    font-family: arial;
+    font-size: 10px;
+    color: #535353;
+    text-decoration: none;
+}
+
+.footer_container span
+{
+    font-family: Arial;
+    font-size: 14px;
+    color: #535353;
+}
